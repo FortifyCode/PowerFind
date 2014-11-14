@@ -1,0 +1,16 @@
+{
+  "per_page": 10,
+  "total":100,
+  "documents":[
+    {"title": "11 - A test article", "url":"/articles/a-test-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "12 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "13 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "14 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "15 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "16 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "17 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "18 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "19 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"},
+    {"title": "20 - Another article", "url":"/articles/another-articles/", "content": "this is the flat content of this article, without style nor html"}
+  ]
+}

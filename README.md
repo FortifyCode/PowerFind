@@ -13,4 +13,12 @@ This way we assure that the client will always process a small amount of data, y
 Although this project is created thinking in static sites, it could be used for any kind of project that requires a search feature.
 
 ## Current status
-This project is currently on planning phase
+This project is currently near phase 1, the Core JS part is functional
+and almost ready.
+
+
+## Requirements
+The current version requires the following libraries:
+
+- [Joseph Myers's JS MD5 implementation](http://www.myersdaily.org/joseph/javascript/md5-text.html)
+- [JS Deflate library](https://github.com/dankogai/js-deflate)

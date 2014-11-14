@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Demo</title>
+</head>
+<body>
+  <h1>Demo</h1>
+  <form>
+    <input type="textfield" name="query" id="query_field" onkeyup="do_search();" />
+  </form>
+  <script src="../lib/powerfind.js"></script>
+  <script>
+    function got_search(results) {
+      console.log(results);
+    }
+
+    var config = {
+      "listeners": [got_search]
+    };
+
+    function do_search() {
+      var query = document.getElementById('query_field').value;
+      var search = PowerSearch(config);
+      search.search(query);
+    }
+  </script>
+</body>
+</html>
